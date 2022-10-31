@@ -1,0 +1,46 @@
+.container > div{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(201, 119, 219);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.first{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.last{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.wrapper > div{
+    /* padding: 10px; */
+}
+
+.plus{
+    font-weight: bolder;
+    transform: rotate(-90deg);
+}
+.plus.active{
+    transform: rotate(90deg);
+}
+.lorem{
+    display: none;
+    border: 2px solid whitesmoke;
+    padding: 10px 12px;
+    margin: 0;
+}
+.lorem.active{
+    display: block;
+}
+
